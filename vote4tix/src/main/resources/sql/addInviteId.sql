@@ -1,0 +1,1 @@
+INSERT INTO (userId, groupId) VALUES (?, ?)

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+    <style>
+      #attraction-panel {
+        display:none;
+      }
+        input[type=text] {
+    width: 190px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+        h1 { color: darkred; font-family: 'Helvetica Neue', sans-serif; font-size: 25px; font-weight: bold; letter-spacing: -1px; line-height: 1; }
+        
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+
+  <body >
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+        <div id='events-panel'>
+          <br>
+          <br>
+          <img src="../images/vote4tix-final-white.png" style="width:260px;">
+          <br>
+          <br>
+          <div class="panel-body">
+            <div id="events" class="list-group">
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+              <a href="#" class="list-group-item" style="height:60px;">
+                <div class="col-xs-2" style="margin-top:-5px;">
+                  <img class="list-group-image" style="width:70px;">
+                </div>
+                <div class="col-xs-3" style="margin-top:10px;">
+                  <p class="list-group-item-heading">Event title</p>
+                </div>
+                <div class="col-xs-2" style="margin-top:10px;">
+                  <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-xs-4" style="margin-top:10px;">
+                  <p class="venue"></p>
+                </div>
+                <div class="col-xs-1" style="margin-top:5px;">
+                  <button type="button" class="purchase" style="height:30px">Purchase</button>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-8">
+            <input type="text" name="search" placeholder="Search.." class="event_search_text" style="width:50%; height:30px;">
+            <button type="button" class="event_search" style="height:30px">Search</button>
+          </div>
+
+          <div class="list-group-item col-xs-2" style="background:transparent; border: none;">
+              <ul class="pager">
+                <li id="prev" class="previous"><a href="#"><span aria-hidden="true">&larr;</span></a></li>
+                <li id="next" class="next"><a href="#"><span aria-hidden="true">&rarr;</span></a></li>
+              </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+  </body>
+
+</html>

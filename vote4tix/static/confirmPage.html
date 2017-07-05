@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Confirm that you would like to go with {invitationCreator}</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <<link rel="stylesheet" href="../src/main/assets/css/style.css">
+        <link href="css/confirmPage.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="white text-center">Hi %s, would you like to buy this ticket for %s?</h3>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-6">
+                    <h4 class="white text-center">The following people have confirmed:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">Person_Confirmed</li>
+                        <li class="list-group-item">Person_Confirmed2</li>
+                    </ul>
+                    <div class="row" align="center">
+                        <center>
+                            <div>
+                                <h3 class="white">%s</h3>
+                                <div> 
+                                    <img src="%s" alt="">
+                                    <div class="caption"> 
+                                        <p>EventDetails</p> 
+                                        <p><a href="#" class="btn btn-success" role="button">Confirm</a> <a href="#" class="btn btn-danger" role="button">Decline</a></p> 
+                                    </div>                             
+                                </div>                         
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-xs-3"></div>
+            </div>
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
