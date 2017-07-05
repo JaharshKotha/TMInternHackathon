@@ -45,10 +45,10 @@ public class DatabaseManager {
     }
 
     public String sendText(Integer inviteId, String email, String mobile,String message) {
-        final String ACCOUNT_SID = "AC6018d4eb02580ad2c966b95c6a923a3e";
-        final String AUTH_TOKEN = "e5019bbf7322f76b3812cccb54e61df3";
+        final String ACCOUNT_SID = "";
+        final String AUTH_TOKEN = "";
 
-        final String fromPhone = "+14806300894";
+        final String fromPhone = "+1";
 
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
